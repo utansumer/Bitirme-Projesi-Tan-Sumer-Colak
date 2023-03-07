@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+        background-image: url("https://www.thoughtco.com/thmb/_OZMQ8_zzwmJFWMtGHhPXcFDiFw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-165792182-56ea29463df78cb4b97bac42.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    }
+    
+    .container>.navbar {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(168, 110, 53);
+    }
+    
+    .navbar ul{
+        float: right;
+        margin-right: 40px;
+    }
+    
+    .navbar>.logo {
+        display: inline-block;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .navbar>.logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(178, 224, 129);
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0px 8px;
+        line-height: 80px;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: darkkhaki;
+        font-size: 25px;
+        padding: 5px 15px;
+        font-family: sans-serif;
+    }
+    
+    
+    .navbar ul li a.active,.navbar ul li a:hover {
+        background-color: brown;
+        border-radius: 10px;
+    }
+    
+    .container>.center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+    
+    .center h1 {
+        color: rgb(49, 47, 32);
+        font-size: 60px;
+        font-weight: bold;
+        margin-left: 175px;
+        width: 700px;
+        text-align: center;
+        font-family:sans-serif;
+    }
+    
+    .center h2 {
+        color: rgb(46, 42, 81);
+        font-size: 40px;
+        font-weight: bold;
+        width: 900px;
+        text-align: center;
+        font-family:sans-serif;
+    }
+    
+    .center .buttons {
+        margin: 50px 280px;
+        float: left;
+    }
+    
+    .buttons button  {
+        height: 30px;
+        width: 90px;
+        font-size: 15px;
+        color: #ffb3b3;
+        background-color: darkslateblue;
+        border: solid 2px rgb(175, 161, 102);
+        cursor: pointer;
+        border-radius: 30px;
+    }
+
+    .paragraph {
+        border-style: none;
+        font-size: 20px;
+        font-family: sans-serif;
+        color: bisque;
+        border-radius: 20px;
+        background-color: #783939;
+        text-align: center;
+        margin: 40px 200px;
+    }
+   
+    .head {
+        height: 120px;
+        width: 320;
+        color: rgb(62, 71, 85);
+        background-color: rgb(4, 137, 81);
+        font-family: sans-serif;
+        font-size: 30px;
+        border: solid;
+        border-radius: 25px;
+        margin: -50px 20px;
+        text-decoration: none;
+    }
